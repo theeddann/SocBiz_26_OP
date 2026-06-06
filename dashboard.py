@@ -11,11 +11,11 @@ layout="wide"
 @st.cache_data
 def load_data():
     pricing_df = pd.read_csv(
-        "processed/final_dynamic_pricing_output.csv"
+        "processed/dynamic_pricing_demo.csv"
     )
 
     monitoring_df = pd.read_csv(
-        "processed/monitoring_output_final.csv"
+        "processed/monitoring_output_demo.csv"
     )
 
     monitoring_results = pd.read_csv(
